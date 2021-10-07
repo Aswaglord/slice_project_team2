@@ -21,9 +21,14 @@ print(f"max num is: {max(num_list)}")
 print(f"min num is: {min(num_list)}")
 
 slice_indexes = num_list[4:9]
-while 
 
 total = sum(slice_indexes)
+slice_indexes.append(total)
 print(total)
+
+counter = 0
+while counter < 6:
+    print(slice_indexes[counter], end='    ')
+    counter += 1
 
 # print(num_list)
