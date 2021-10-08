@@ -31,4 +31,3 @@ while counter < 6:
     print(slice_indexes[counter], end='    ')
     counter += 1
 
-# print(num_list)
